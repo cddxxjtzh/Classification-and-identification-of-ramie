@@ -1,0 +1,5 @@
+测试
+darknet.exe detector test data/plate.data cfg/yolov3-ramie.cfg data/backup/yolov3-ramie_last.weights data/images-test/duo1-1.jpg
+
+训练
+darknet.exe detector train data/plate.data cfg/yolov3-ramie.cfg data/darknet53.conv.74
